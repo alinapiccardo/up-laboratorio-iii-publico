@@ -1,0 +1,4 @@
+27243;El Aleph;Jorge Luis Borges
+63496;Cien años de soledad;Gabriel García Márquez
+17085;Ficciones;Jorge Luis Borges
+52426;Rayuela;Julio Cortázar
