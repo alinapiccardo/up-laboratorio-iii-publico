@@ -1,10 +1,8 @@
-PEDIDO-001: Hamburguesa con papas
-PEDIDO-002: Pizza grande de muzzarella
-PEDIDO-003: Ensalada Caesar
-PEDIDO-004: Empanadas fritas
-PEDIDO-005: Milanesa a la napolitana con pure
-PEDIDO-006: Ensalada de la Casa
-PEDIDO-007: Fajitas de carne asada
-PEDIDO-008: Lomito completo
-PEDIDO-009: Fideos a la bolognesa
-PEDIDO-010: Flan casero con dulce de leche
+PEDIDO-001: Pasta Alfredo
+PEDIDO-002: Sushi mixto
+PEDIDO-003: Ensalada Cesar
+PEDIDO-004: Hamburguesa con papas
+PEDIDO-005: Ensalada Cesar
+PEDIDO-006: Hamburguesa con papas
+PEDIDO-007: Pizza grande
+PEDIDO-008: Sushi mixto

@@ -1,17 +1,24 @@
 CC = gcc
 CFLAGS = -std=c89 -pedantic -Wall -Werror
-TARGET = pedidos
-SRC = pedidos.c
 
-.PHONY: all clean run
+.PHONY: all clean
 
-all: $(TARGET)
+all: recepcion cocina
 
-$(TARGET): $(SRC)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
+recepcion: recepcion.o pedidos.o
+	$(CC) $(CFLAGS) -o recepcion recepcion.o pedidos.o
 
-run: $(TARGET)
-	./$(TARGET)
+cocina: cocina.o pedidos.o
+	$(CC) $(CFLAGS) -o cocina cocina.o pedidos.o
+
+recepcion.o: recepcion.c pedidos.h
+	$(CC) $(CFLAGS) -c recepcion.c
+
+cocina.o: cocina.c pedidos.h
+	$(CC) $(CFLAGS) -c cocina.c
+
+pedidos.o: pedidos.c pedidos.h
+	$(CC) $(CFLAGS) -c pedidos.c
 
 clean:
-	rm -f $(TARGET) pedidos.txt
+	rm -f *.o recepcion cocina pedidos.txt
