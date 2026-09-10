@@ -1,8 +1,0 @@
-PEDIDO-001: Pasta Alfredo
-PEDIDO-002: Sushi mixto
-PEDIDO-003: Ensalada Cesar
-PEDIDO-004: Hamburguesa con papas
-PEDIDO-005: Ensalada Cesar
-PEDIDO-006: Hamburguesa con papas
-PEDIDO-007: Pizza grande
-PEDIDO-008: Sushi mixto
